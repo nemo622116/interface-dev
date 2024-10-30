@@ -36,7 +36,7 @@ torch2onnx(img, work_dir, save_file, deploy_cfg, model_cfg,
 export2SDK(deploy_cfg, model_cfg, work_dir, pth=model_checkpoint, device=device)
 ```
 
-**Step2: Deploy onnx with SDK**
+**Step2: Deploy onnx with python SDK**
 
 ```
 (openmmlab) D:\mmopenlab>python .\mmdeploy\demo\python\image_classification.py cpu .\mmdeploy\work_dir\onnx\resnet\ .\mmpretrain\demo\demo.JPEG
