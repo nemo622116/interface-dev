@@ -36,4 +36,19 @@ torch2onnx(img, work_dir, save_file, deploy_cfg, model_cfg,
 export2SDK(deploy_cfg, model_cfg, work_dir, pth=model_checkpoint, device=device)
 ```
 
+**Step2: Deploy onnx with SDK**
+
+```
+(openmmlab) D:\mmopenlab>python .\mmdeploy\demo\python\image_classification.py cpu .\mmdeploy\work_dir\onnx\resnet\ .\mmpretrain\demo\demo.JPEG
+loading mmdeploy_trt_net.dll ...
+failed to load library mmdeploy_trt_net.dll
+loading mmdeploy_ort_net.dll ...
+[2024-10-30 17:40:46.295] [mmdeploy] [info] [model.cpp:35] [DirectoryModel] Load model: ".\mmdeploy\work_dir\onnx\resnet\"
+58 0.3177702724933624
+62 0.2017456740140915
+65 0.12394838780164719
+54 0.10745801031589508
+49 0.10204800963401794
+```
+
 
