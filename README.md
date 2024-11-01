@@ -65,4 +65,5 @@ to train model:
 ```
 cd mmdetection
 python tools/train.py configs/faster_rcnn/faster-rcnn_r50_fpn_2x_coco.py
+# for more demo models:https://github.com/open-mmlab/mmdetection/blob/main/docs/en/model_zoo.md
 ```
