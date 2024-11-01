@@ -51,4 +51,18 @@ loading mmdeploy_ort_net.dll ...
 49 0.10204800963401794
 ```
 
+**problems on 2024/11/1**
 
+Considering of mission to compare the diffrent ways to run the model, It's better to train one standard by tutorial.
+
+ VS code suddenly can't work today, but spyder can still work.
+
+ tutorial according to:[使用MMDeploy（预编译包）转换MMxx(MMDeploy支持库均可)pth权重到onnx，并使用C++ SDK加载onnx得到dll动态链接库，实现在windows平台中调用（linux也适用）](https://blog.csdn.net/weixin_43749999/article/details/130308470?spm=1001.2014.3001.5502)
+
+ and[使用MMDeploy（预编译包）转换MMxx(MMDeploy支持库均可)pth权重到onnx，并使用python SDK进行部署验证](https://blog.csdn.net/weixin_43749999/article/details/130307058?spm=1001.2014.3001.5502)
+
+to train model: 
+```
+cd mmdetection
+python tools/train.py configs/faster_rcnn/faster-rcnn_r50_fpn_2x_coco.py
+```
