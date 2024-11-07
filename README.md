@@ -67,3 +67,15 @@ cd mmdetection
 python tools/train.py configs/faster_rcnn/faster-rcnn_r50_fpn_2x_coco.py
 # for more demo models:https://github.com/open-mmlab/mmdetection/blob/main/docs/en/model_zoo.md
 ```
+
+**brief on 2024/11/7**
+
+finished Yolo3's transform and verification on python onnx deploy.pth can be download at[mmdetection/configs/yolo/README.md](https://github.com/open-mmlab/mmdetection/blob/main/configs/yolo/README.md)
+
+next to do:
+
+1.Yolo3 python SDK verify
+
+2.C++ SDK verify
+
+3.transform rtmdet model
