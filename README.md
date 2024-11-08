@@ -79,3 +79,11 @@ next to do:
 2.C++ SDK verify
 
 3.transform rtmdet model
+
+**brief on 2024/11/8**
+
+finished Yolo3 python sdk verify
+
+generate dll
+
+problems: failed to load the dll file
