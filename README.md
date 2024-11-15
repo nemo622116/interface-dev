@@ -87,3 +87,11 @@ finished Yolo3 python sdk verify
 generate dll
 
 problems: failed to load the dll file
+
+**brief on 2024/11/15**
+
+website of rtmdet: https://github.com/open-mmlab/mmdetection/tree/main/configs/rtmdet
+
+finished Yolo3 & rtmdet onnx transform
+
+tbd: deploy onnx on C++
